@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/earguedas11/git-test.git"
+    "url": "git+https://github.com/earguedas11/bootstrap-camp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/earguedas11/git-test/issues"
+    "url": "https://github.com/earguedas11/bootstrap-camp/issues"
   },
-  "homepage": "https://github.com/earguedas11/git-test#readme",
+  "homepage": "https://github.com/earguedas11/bootstrap-camp#readme",
   "devDependencies": {
     "lite": "^4.0.5",
     "lite-server": "^2.5.4"
