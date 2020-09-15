@@ -20,10 +20,8 @@ h2 {
     color: $color-primary;
 }
 
-header {
-    h2 {
-        color: $color-pale;
-    }
+header h2 {
+    color: $color-pale;
 }
 
 .site-footer {
@@ -45,7 +43,7 @@ header {
 }
 
 .navbar {
-    background-color: $color-mid;
+  background-color: $color-mid; 
 }
 
 .site-footer{
@@ -60,11 +58,11 @@ header {
 }
 
 .carousel {
-    border: solid $color-secondary;
+    border: solid #5637DD;
 }
 
 .carousel-caption {
-    background-color: $color-black-transparent;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #carouselButton {
