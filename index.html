@@ -31,7 +31,8 @@
                 <h2>a better way to camp</h2>
             </div>
             <div class="col-md-4 col-xl-2">
-                <a href="#reserveForm" role="button" class="btn btn-info btn-lg mt-4 text-nowrap" data-toggle="modal" data-target='#reserveModal'>Reserve Campsite</a>
+                <!-- Week 4 Task 1 & 2 -->
+                <a href="#reserveForm" role="button" class="btn btn-info btn-lg mt-4 text-nowrap" id="reserveButton">Reserve Campsite</a>         
             </div>
         </div>
     </div>
@@ -41,9 +42,11 @@
 <div id="reserveModal" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <div class="modal-header bg-info text-white">
+            <!-- Week 4 Task 3 -->
+            <div class="modal-header">
                 <h3 class="modal-title">Reserve a Campsite</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <!-- Week 4 Task 1 & 2 Xtra Hide-->
+                <button type="button" class="close" id="closeReserveModal">&times;</button>
             </div>
             <div class="modal-body">
                 <form action="" id="reserveForm">
@@ -124,8 +127,9 @@
                         Contact</a>
                 </li>
             </ul>
+            <!-- Week 4 Task 1 & 2 -->
             <span class="navbar-text ml-auto">
-                <a role="button" data-toggle="modal" data-target="#loginModal">
+                <a role="button" id="loginButton">
                     <i class="fa fa-sign-in"></i>
                     Login
                 </a>
@@ -137,47 +141,45 @@
 
 <!-- Login Modal -->
 <div id="loginModal" class="modal fade" role="dialog">
-   <div class="modal-dialog" role="document">
-       <div class="modal-content">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
             <div class="modal-header">
-               <h3 class="modal-title">
-                Login</h3>
-               <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
+                <h3 class="modal-title">
+                 Login</h3>
+                 <!-- Week 4 Task 1 & 2 Xtra Hide-->
+                <button type="button" class="close" id="closeLoginModal">&times;</button>
+             </div>
             <div class="modal-body">
                 <div class="container-fluid">
                     <form>
                         <div class="form-row">
                             <div class="form-group col-12">
-                                <label class="sr-only" for="loginEmail">Email address</label>
-                                <input type="email" class="form-control form-control-sm" id="loginEmail"
-                                placeholder="Enter email">
+                                <label class="sr-only" for="loginEmail"> Email address </label>
+                                <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
                             </div>
                             <div class="form-group col-12">
-                                <label class="sr-only" for="loginPassword">Password</label>
-                                <input type="email" class="form-control form-control-sm" id="loginPassword"
-                                placeholder="Password">
+                                <label class="sr-only" for="loginPassword"> Password </label>
+                                <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
                             </div>
                             <div class="col">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox">
-                                    <label class="form-check-label">Remember me</label>
+                                    <label class="form-check-label"> Remember me </label>
+                                </div>
                                 </div>
                             </div>
                         </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm mml-auto" data-dismiss="modal">
-                                Cancel</button>
-                               <button type="submit" class="btn btn-primary btn-sm ml-1">
-                                Signin</button>
-                            </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"> Cancel </button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1"> Sign in </button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- End Login Modal -->
+ <!-- End Login Modal -->
 
 <!-- Carousel -->
 <div class="container">
@@ -228,6 +230,7 @@
             </div>
         </div>
     </div>
+    
 <!-- End Carousel -->
 
     <!-- Main Content -->
