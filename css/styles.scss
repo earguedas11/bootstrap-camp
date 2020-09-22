@@ -80,20 +80,18 @@ header h2 {
   z-index: 100;
 }
 
+.modal-title {
+  color: white;
+}
+
 #reserveModal {
   .modal-header {
-    background-color: $color-teal;
-  }
-  h3.modal-title {
-    color: white;
+    $color-teal;
   }
 }
 
 #loginModal {
   .modal-header {
-    background-color: $color-mid;
+    $color-mid;
   }
-  h3.modal-title {
-    color: white;
-  }
-}
+} 
